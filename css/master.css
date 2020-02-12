@@ -160,6 +160,10 @@ main {
 
 }
 
+.artist-cover img:hover {
+    opacity: 0.5;
+}
+
 .cover-artist-flex {
     display: flex;
     flex-direction: row;
@@ -176,9 +180,15 @@ main {
 }
 
 footer {
+    height: 90px;
+    width: 100vw;
     background-color: black;
-    width: calc(100vw - 60px);
-    position: static;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .player-flex {
@@ -214,7 +224,7 @@ small {
     flex-direction: row;
     font-size: 30px;
     padding-left: 140px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
