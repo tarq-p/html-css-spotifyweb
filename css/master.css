@@ -47,7 +47,7 @@ aside {
   padding-left: 15px;
   padding-top: 50px;
   padding-bottom: 10px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .menu{
@@ -58,12 +58,17 @@ aside {
   font-size: 17px;
 }
 
+h3 {
+    padding-bottom: 10px;
+}
+
 h3,h4 {
     color: white;
 }
 
 h4 {
     padding-top: 20px;
+    font-size: 20px;
 }
 
 #logo {
@@ -167,7 +172,7 @@ main {
 }
 
 .radio img {
-    
+
 }
 
 footer {
