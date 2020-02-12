@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+aside {
+    background-color: #040404;
+}
+
+header {
+    background-color: #040404;
+    position: fixed;
+}
+
+main {
+    background-color: #121212;
+    padding: 50px 0 0 50px;
+}
+
+/* Flex */
+
+.flex {
+    display: flex;
+}
+
+aside {
+    width: 260px;
+    height: 102vh;
+
+}
+
+#logo {
+    width: 180px;
+    height: 60px;
+}
+
+.vertical-menu{
+  list-style-type: none;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+.menu{
+  list-style-type: none;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+h3,h4 {
+    color: white;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+#logo {
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: calc(100vw - 60px);
+    height: 60px;
+}
+
+header button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #lightgrey;
+}
+
+button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+i {
+    padding-right: 20px;
+}
+
+ .vertical-menu  p {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.menu li a {
+   color: #ffffff;
+
+}
+
+li {
+    padding-top: 20px;
+}
+main {
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+
+.horizontal-menu-flex  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 1px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.horizontal-menu-flex a {
+    color: white;
+    padding-left: 100px;
+}
+
+
+.horizontal-menu-flex .Podcast{
+
+}
+
+.played {
+    padding-bottom: 40px;
+}
+
+.played h2 {
+    padding-top: 50px;
+    color: white;
+}
+
+.artist-cover p,i {
+    color: white;
+
+}
+.artist-cover i {
+    padding-top: 10px;
+    font-size: 25px;
+
+}
+
+.cover-artist-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.played p {
+    padding-top: 15px;
+    color: lightgrey;
+}
+
+.radio img {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: black;
+    width: calc(100vw - 60px);
+    position: static;
+}
+
+.player-flex {
+    display: flex;
+}
+
+small {
+    vertical-align: top;
+    font-size: 20px;
+    color: white;
+}
+
+.now-playing {
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.now-playing i {
+    color: white;
+    font-size: 20px;
+}
+
+.fa-heart {
+    padding-top: 3px;
+}
+
+.player-controller-flex i  {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    padding-left: 140px;
+    padding-top: 10px;
+}
