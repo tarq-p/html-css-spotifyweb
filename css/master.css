@@ -167,7 +167,7 @@ main {
 }
 
 .radio img {
-    border-radius: 50%;
+    
 }
 
 footer {
@@ -210,4 +210,22 @@ small {
     font-size: 30px;
     padding-left: 140px;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    aside {
+        width: 60px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+    .vertical-menu li p {
+        display: none;
+   }
+}
+
+@media screen and (max-width: 800px) {
+    .menu li, h3, h4 {
+        display: none;
+   }
 }
