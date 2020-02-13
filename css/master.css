@@ -26,7 +26,6 @@ main {
     padding: 50px 0 0 50px;
 }
 
-/* Flex */
 
 .flex {
     display: flex;
@@ -43,6 +42,7 @@ aside {
     height: 60px;
 }
 
+/* aside */
 .vertical-menu{
   list-style-type: none;
   padding-left: 15px;
@@ -80,6 +80,7 @@ a {
     text-decoration: none;
 }
 
+/* header */
 header {
     width: calc(100vw - 60px);
     height: 60px;
@@ -95,8 +96,10 @@ header button {
 
 button {
   position: fixed;
-  top: 10px;
+  top: 7.5px;
   right: 10px;
+  font-size: 18px;
+
 }
 
 i {
@@ -126,7 +129,7 @@ main {
     overflow-y: auto;
 }
 
-
+/* main */
 .horizontal-menu-flex  {
     display: flex;
     justify-content: space-between;
@@ -184,6 +187,8 @@ main {
 
 }
 
+/* Footer */
+
 footer {
     height: 100px;
     width: 100vw;
@@ -236,6 +241,7 @@ small {
     padding-top: 20px;
 }
 
+/* responsive */
 @media screen and (max-width: 800px) {
     aside {
         width: 60px;
