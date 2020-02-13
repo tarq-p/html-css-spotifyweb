@@ -253,6 +253,12 @@ small {
 }
 
 @media screen and (max-width: 800px) {
+    .menu li p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .menu li, h3, h4 {
         display: none;
     }
