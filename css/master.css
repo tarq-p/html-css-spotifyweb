@@ -228,7 +228,6 @@ small {
 .player-controller-flex i {
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: row;
     font-size: 30px;
     padding-left: 140px;
@@ -251,5 +250,53 @@ small {
 @media screen and (max-width: 800px) {
     .menu li, h3, h4 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .player-controller-flex i {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .player-controller-flex i {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    .player-controller-flex i {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .player-controller-flex i {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .player-controller-flex i {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .player-controller-flex i {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .player-controller-flex i {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .player-controller-flex i {
+        padding-left: 0px;
     }
 }
