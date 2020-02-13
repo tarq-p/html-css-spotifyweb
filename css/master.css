@@ -89,8 +89,9 @@ header button {
     background-color: black;
     color: white;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     border-color: white;
+
 }
 
 button {
@@ -98,10 +99,13 @@ button {
     top: 7.5px;
     right: 10px;
     font-size: 18px;
+    color: white;
+    border-color: white;
 }
 
 button a {
     color: white;
+    border-color: white;
 }
 
 i {
