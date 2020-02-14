@@ -17,9 +17,9 @@ aside {
 }
 
 header {
-    background-color: #040404;
+    background-color: black;
     position: fixed;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -37,6 +37,8 @@ aside {
 }
 
 #logo {
+    display: flex;
+    justify-content: space-between;
     width: 180px;
     height: 60px;
 }
